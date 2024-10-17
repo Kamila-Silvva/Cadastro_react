@@ -1,0 +1,19 @@
+Instalações das dependências da pasta Server
+-- todas as Instalações devem ser feitas dentro da pasta Server
+--- npm i nodemon -- para não ficar sendo feito o resert
+--- npm i express -- faz a rota entre o cliente o servidor
+--- npm i cors -- faz a rota entre o server e o mySQL
+
+--- nom add mysql2 express cors nodemon - instalar as dependências do sql na aplicação já com os outros pacotes integrados
+
+O mySQL sem o 2 está contando com muitos erros por isso usamos o mysql2 por conter menos erros. 
+
+Inicializar os scripts de detuparção para o complemento do servidor dentro do pacote Json
+
+"scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+  --- Comando: npm init -y - serve para salvar a pasta e o que foi instalado dentro da mesma de maneira automatica
